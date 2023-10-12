@@ -23,5 +23,3 @@ build:
             dest: .
       docker:
         dockerfile: Dockerfile
-deploy:
-  kubectl:
