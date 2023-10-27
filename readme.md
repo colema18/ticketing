@@ -5,6 +5,6 @@ Need the following installed:
 - - kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.2/deploy/static/provider/cloud/deploy.yaml
 
 JWT Secret Key creation: for dev/example purposes only, this key should not be in source
-k create secret generic jwt-secret --from-literal=JWT_KEY=asdf
+k create secret generic jwt-secret --from-literal=JWT_KEY=asdfasdf
 or if running outside of docker/k8s
 export JWT_KEY=asdf
